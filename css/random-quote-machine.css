@@ -47,8 +47,27 @@ body
 	width: 40px;
 }
 
+.icon-twitter
+{	font-size: 16px;
+}
+
+.marg-bottom
+{	margin-bottom: 18px;
+}
+
+.marg-top
+{	margin-top: 24px;
+}
+
 #quote, #author
 { 	color: rgb(102, 119, 153);
+}
+
+.quote-box
+{	background: #fff; 
+	border: none; 
+	border-radius: 0px; 
+	margin-bottom: 0;
 }
 
 .v-align-a
