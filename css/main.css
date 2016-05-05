@@ -1,43 +1,156 @@
-body {
-    margin: 60px auto;
-    width: 70%;
-}
-nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
-}
-nav ul li, footer ul li {
-    display: inline;
-    margin-right: 20px;
-}
-a {
-    text-decoration: none;
-    color: #999;
-}
-a:hover {
-    text-decoration: underline;
-}
-h1 {
-    font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-}
-p {
-    font-size: 1.5em;
-    line-height: 1.4em;
-    color: #333;
-}
-footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
+a
+{ cursor: pointer;
 }
 
-ul.posts { 
-    margin: 20px auto 40px; 
-    font-size: 1.5em;
+a:focus
+{ outline: 0;
 }
 
-ul.posts li {
-    list-style: none;
+.bg-med
+{ background-color: #4c4c4c;
+}
+
+.bg-dark
+{ background-color: #abbcc6;
+}
+
+.bg-light
+{ background-color: #cdd7dc;
+}
+
+#br-img-me
+{ font-size: 16px;
+}
+
+body
+{ font-family: Ubuntu, sans-serif;
+  min-width: 220px;
+  width: auto !important; /* Firefox */
+  width: 800px; /* For IE ignores */
+}
+
+.col-projects
+{ margin-top: 28px;
+  margin-bottom: 28px;
+}
+
+.col-style
+{ margin: 0;
+  padding: 0 4px 0 4px;
+}
+
+.container-fluid
+{ max-width: 800px;
+}
+
+#cover-col
+{ height: 373px;
+  margin: 0;
+  padding: 0 0px 0 0px;
+}
+
+#cover-row
+{ margin-bottom: 18px;
+}
+
+.gray-scale
+{ -webkit-filter: grayscale( 100% ); /* Chrome, Safari, Opera */
+  filter: grayscale( 100% );
+}
+
+.icon-link
+{ height: 45px;
+  border-color: #4c4c4c;
+  border-style: solid;
+  border-width: 2px;
+}
+
+#img-cover
+{ background: url( "https://farm2.staticflickr.com/1482/26539483722_c69184d0a8_c.jpg" ) no-repeat center;
+  height: 100%;
+  width: 100%;
+}
+
+#img-me
+{ border-radius: 50%;
+  margin-top: 12px;
+}
+
+.links-box
+{ text-align: center;
+  padding: 8px 8px 8px 8px;
+}
+
+#moochobrain-logo
+{ height: 45px;
+  margin-top: 3px;
+}
+
+.mosaic
+{ padding: 3px 3px 3px 3px !important;
+  margin: 0 !important;
+}
+
+#navbar
+{ background-color: #333;
+  border: none;
+  max-width: 800px;
+}
+
+.rightmost-margin
+{ margin-right: -10px;
+}
+
+.row-style
+{ margin-bottom: 8px;
+}
+
+.section-bar
+{ background-color: #4c4c4c;
+  height: 32px; 
+  width: 100%; 
+}
+
+.section-bar-links
+{ background-color: #333;
+  height: 32px; 
+  width: 100%; 
+}
+
+#text-bubble
+{ font-size: 16px;
+  margin: 0 4vw 0 4vw;
+}
+
+#text-hello
+{ font-size: 18px;
+  font-weight: bold;
+}
+
+.text-section
+{ color: #ccc; 
+  font-size: 15px; 
+  margin-left: 4px; 
+  margin-top: 5px;
+}
+
+.text-subtitle
+{ color: #fff;
+  text-shadow: 1px 1px 8px #000;
+  margin: 0;
+  font-size: 24px;
+}
+
+.text-title
+{ color: #fff;
+  text-shadow: 1px 1px 8px #000;
+  margin: 0;
+  padding: 128px 0 8px 0;
+  font-size: 40px;
+}
+
+.text-links
+{ color: #ccc; 
+  font-size: 14px; 
+  margin: 4px 0 4px 4px;
 }
