@@ -19,7 +19,8 @@ var quoteList =
   { quote: "It is better to travel well than to arrive.", author: "Buddha" },
   { quote: "It does not matter how slowly you go as long as you never stop.", author: "Confucius" },
   { quote: "Choose a job you love, and you will never have to work a day in your life.", author: "Confucius" },
-  { quote: "Wherever you go, go with all your heart.", author: "Confucius" }
+  { quote: "Wherever you go, go with all your heart.", author: "Confucius" },
+  { quote: "Talent hits a target no one else can hit; genius hits a target no one else can see.", author: "Arthur Schopenhauer" }
 ];
 
 var indexes = [];
