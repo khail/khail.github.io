@@ -6,6 +6,10 @@ body
     background: #215c99;
 }
 
+#text-name
+{   color: #84afdb;
+}
+
 .toggle.ios, .toggle-on.ios, .toggle-off.ios
 {   border-radius: 20px;
     text-shadow: none;
