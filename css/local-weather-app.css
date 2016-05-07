@@ -6,6 +6,11 @@ body
 	background: #215c99;
 }
 
+.toggle.ios, .toggle-on.ios, .toggle-off.ios
+{	border-radius: 20px;
+	text-shadow: none;
+}
+
 .v-align-a
 {   display: table;
     position: absolute;
