@@ -1,89 +1,90 @@
-body
-{ 	font-family: Georgia, serif;
-	background: rgb(102, 119, 153);
+body {
+    font-family: Georgia, serif;
+    background: rgb(102, 119, 153);
 }
 
-#btnQuote
-{ 	background-color: rgb(102, 119, 153);
-	border: 0;
-	border-radius: 4%;
-	color: #fff;
-	cursor: pointer;
-	float: right;
-	font-size: 16px;
-	height: 40px;
-	line-height: 40px;
-	margin-right: 6px;
-	margin-top: 6px;
-	outline: 0;
-	text-align: center;
-	width: 104px;
-  
-	// Text select off
-	-webkit-touch-callout: none;
-	-webkit-user-select: none;
-	-khtml-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-	user-select: none;
+#btnQuote {
+    background-color: rgb(102, 119, 153);
+    border: 0;
+    border-radius: 4%;
+    color: #fff;
+    cursor: pointer;
+    float: right;
+    font-size: 16px;
+    height: 40px;
+    line-height: 40px;
+    margin-right: 6px;
+    margin-top: 6px;
+    outline: 0;
+    text-align: center;
+    width: 104px;
+    // Text select off
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
-#btnTwitterAnchor
-{ 	margin-top: 60px;
+#btnTwitterAnchor {
+    margin-top: 60px;
 }
 
-#btnTwitterButton
-{ 	background-color: rgb(102, 119, 153);
-	border: 0;
-	border-radius: 4%;
-	color: #fff;
-	float: right;
-	height: 40px;
-	line-height: 44px;
-	margin-right: 6px;
-	margin-top: 6px;
-	outline: 0;
-	text-align: center;
-	width: 40px;
+#btnTwitterButton {
+    background-color: rgb(102, 119, 153);
+    border: 0;
+    border-radius: 4%;
+    color: #fff;
+    float: right;
+    height: 40px;
+    line-height: 44px;
+    margin-right: 6px;
+    margin-top: 6px;
+    outline: 0;
+    text-align: center;
+    width: 40px;
 }
 
-.icon-twitter
-{	font-size: 16px;
+.icon-twitter {
+    font-size: 16px;
 }
 
-.marg-bottom
-{	margin-bottom: 18px;
+.marg-bottom {
+    margin-bottom: 18px;
 }
 
-.marg-top
-{	margin-top: 24px;
+.marg-top {
+    margin-top: 24px;
 }
 
-#quote, #author
-{ 	color: rgb(102, 119, 153);
+#quote,
+#author {
+    color: rgb(102, 119, 153);
 }
 
-.quote-box
-{	background: #fff; 
-	border: none; 
-	border-radius: 0px; 
-	margin-bottom: 0;
+.quote-box {
+    background: #fff;
+    border: none;
+    border-radius: 0px;
+    margin-bottom: 0;
 }
 
-.v-align-a
-{   display: table;
+.v-align-a {
+    display: table;
     position: absolute;
     height: 100%;
     width: 100%;
 }
 
-.v-align-b
-{	display: table-cell;
+.v-align-b {
+    display: table-cell;
     vertical-align: middle;
 }
 
-.v-align-c
-{	margin-left: auto;
-    margin-right: auto; 
-    width: /*whatever width you want*/;
+.v-align-c {
+    margin-left: auto;
+    margin-right: auto;
+    width: /*whatever width you want*/
+    ;
 }
