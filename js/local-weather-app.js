@@ -26,11 +26,11 @@ var bgURL =
 
 function setUnits()
 {   if( $( '#toggle' ).prop( 'checked' ) )
-    {   tempStr = temp + ' C';
+    {   tempStr = temp + '&deg;C';
         windStr = wind + ' m/s';
     }
     else
-    {   tempStr = String( Math.round( temp * 1.8 + 32 ) ) + ' F';
+    {   tempStr = String( Math.round( temp * 1.8 + 32 ) ) + '&deg;F';
         windStr = String( Math.round( wind * 2.23694 ) ) + ' mi/h';
     }
                 
