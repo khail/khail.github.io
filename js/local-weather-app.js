@@ -49,47 +49,55 @@ function getWindDir( deg )
     else if( deg >= 292.5 && deg < 337.5 ) return 'Northwest';
 }
 
-$
+function displayWeather( data )
+{	$( '#backdrop' ).css
+	(   {   'background-image':
+		    'url( https://' + bgURL[ 'i' + data.weather[ 0 ].icon ] + ' )'
+		}
+	);
+                    
+    var iconURL = 'http://openweathermap.org/img/w/' + data.weather[ 0 ].icon + '.png';
+    temp = Math.round( data.main.temp );
+    tempStr = temp + ' C';
+    wind = Math.round( data.wind.speed );
+    windStr = wind + ' m/s';
+    
+    $( '#weather-icon' ).html( '<img src=' + iconURL + '>' );
+    $( '#temp-str' ).html( tempStr );
+    $( '#city' ).html( data.name );
+    $( '#weather-desc' ).html( data.weather[ 0 ].description );
+    $( '#wind-dir' ).html( getWindDir( data.wind.deg ) );
+    $( '#wind-str' ).html( windStr );
+    
+    setUnits();
+}
+
+function getGeoloc( position )
+{   var APPID = 'd399f5bef04f797e1957ce6484ec7ea8';
+    var latitude = position.coords.latitude;
+    var longitude = position.coords.longitude;
+    var weatherURL = 'http://api.openweathermap.org/data/2.5/weather?lat=' + latitude +
+        '&lon=' + longitude + '&APPID=' + APPID + '&units=metric';
+                
+    $.getJSON
+	(   weatherURL,
+	    function( data ) { displayWeather( data ); }
+	);
+}
+
+// Start here
+if( navigator.geolocation )
+{   navigator.geolocation.getCurrentPosition
+    (   function( position ) { getGeoloc( position ); }
+    );
+}
+
+$ // handle toggle btn
 (   function()
     {   $( '#toggle' ).change
-        (    function()
-            {    setUnits();
+        (   function()
+            {   setUnits();
             }
         )
     }
 )
-
-if( navigator.geolocation )
-{   navigator.geolocation.getCurrentPosition
-    (   function( position )
-        {   var APPID = 'd399f5bef04f797e1957ce6484ec7ea8';
-            var latitude = position.coords.latitude;
-            var longitude = position.coords.longitude;
-            var weatherURL = 'http://api.openweathermap.org/data/2.5/weather?lat=' + latitude +
-                '&lon=' + longitude + '&APPID=' + APPID + '&units=metric';
-                
-            $.getJSON
-            (   weatherURL,
-                function( data )
-                {   $( '#backdrop' ).css( { 'background-image': 'url( https://' +
-                        bgURL[ 'i' + data.weather[ 0 ].icon ] + ' )' } );
-                    
-                    var iconURL = 'http://openweathermap.org/img/w/' + data.weather[ 0 ].icon + '.png';
-                    temp = Math.round( data.main.temp );
-                    tempStr = temp + ' C';
-                    wind = Math.round( data.wind.speed );
-                    windStr = wind + ' m/s';
-                    
-                    $( '#weather-icon' ).html( '<img src=' + iconURL + '>' );
-                    $( '#temp-str' ).html( tempStr );
-                    $( '#city' ).html( data.name );
-                    $( '#weather-desc' ).html( data.weather[ 0 ].description );
-                    $( '#wind-dir' ).html( getWindDir( data.wind.deg ) );
-                    $( '#wind-str' ).html( windStr );
-                    
-                    setUnits();
-                }
-            );
-        }
-    );
-}
