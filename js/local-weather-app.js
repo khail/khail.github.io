@@ -3,6 +3,29 @@ var tempStr;
 var wind;
 var windStr;
 
+function setUnits()
+{	if( $( '#toggle' ).prop( 'checked' ) )
+	{	tempStr = temp + ' C';
+		windStr = wind + ' m/s';
+	}
+	else
+	{	tempStr = String( Math.round( temp * 1.8 + 32 ) ) + ' F';
+		windStr = String( Math.round( wind * 2.23694 ) ) + ' mi/h';
+	}
+				
+	$( '#temp-str' ).html( tempStr );
+	$( '#wind-str' ).html( windStr );
+}
+
+$(	function()
+	{	$( '#toggle' ).change
+		(	function()
+			{	setUnits();
+			}
+		)
+	}
+)
+
 if( navigator.geolocation )
 { 	navigator.geolocation.getCurrentPosition
 	( 	function( position )
@@ -62,27 +85,10 @@ if( navigator.geolocation )
 					$( '#weather-desc' ).html( data.weather[ 0 ].description );
 					$( '#wind-dir' ).html( getWindDir( data.wind.deg ) );
 					$( '#wind-str' ).html( windStr );
+					
+					setUnits();
 				}
 			);
 		}
 	);
 }
-
-$(	function()
-	{	$( '#toggle' ).change
-		(	function()
-			{	if( $( this ).prop( 'checked' ) )
-				{	tempStr = temp + ' C';
-					windStr = wind + ' m/s';
-				}
-				else
-				{	tempStr = String( Math.round( temp * 1.8 + 32 ) ) + ' F';
-					windStr = String( Math.round( wind * 2.23694 ) ) + ' mi/h';
-				}
-				
-				$( '#temp-str' ).html( tempStr );
-				$( '#wind-str' ).html( windStr );
-			}
-		)
-	}
-)
