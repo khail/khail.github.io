@@ -2,7 +2,6 @@ var temp = 0;
 var tempStr = '';
 var wind = 0;
 var windStr = '';
-
 var bgURL =
 {   i01d: 'farm6.staticflickr.com/5583/14657906197_572697cb41_o.jpg',
     i01n: 'https://farm8.staticflickr.com/7274/7559392358_26aaa31531_o.jpg',
@@ -92,7 +91,7 @@ if( navigator.geolocation )
     );
 }
 
-$ // handle toggle btn
+$ // toggle btn handler
 (   function()
     {   $( '#toggle' ).change
         (   function()
