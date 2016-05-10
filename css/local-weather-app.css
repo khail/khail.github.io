@@ -6,7 +6,19 @@ body {
     background: #215c99;
 }
 
-#text-name {
+#text-name a:active {
+    color: #84afdb;
+}
+
+#text-name a:hover {
+    color: #84afdb;
+}
+
+#text-name a:link {
+    color: #84afdb;
+}
+
+#text-name a:visited {
     color: #84afdb;
 }
 
