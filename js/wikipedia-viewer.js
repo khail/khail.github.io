@@ -32,11 +32,10 @@ $('#btn-random').click (
                 action: 'query',
                 generator: 'random',
                 grnnamespace: 0,
-                //prop: 'extracts',
                 format: 'json'
             },
             function (data) {
-               $.each (
+                $.each (
                     data.query.pages,
                     function (k, v) {
                         $.getJSON (
@@ -52,8 +51,8 @@ $('#btn-random').click (
                                 $('#results').append ('<h3>Random article:</h3><br>');
                                 $.each (url.query.pages,
                                     function (key, page) {
-                                        $('#results').append(
-                                            '<a class=\'article-title\' href=' + page.fullurl + ' target=\'_blank\'>' + page.title + '</a>'
+                                        $('#results').append (
+                                            '<a class=\'article-title\' href=\'' + page.fullurl + '\' target=\'_blank\'>' + page.title + '</a>'
                                         )
                                     }
                                 );
@@ -61,7 +60,6 @@ $('#btn-random').click (
                         );
                     }
                 );
-    
             }
         );
     }
