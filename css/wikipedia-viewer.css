@@ -1,0 +1,78 @@
+.article-title {
+    font-size: 20px;
+}
+
+body {
+    background-color: #eee;
+    font-family: Ubuntu;
+}
+
+.dice-div {
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.dice-div button {
+    color: transparent;
+    border: none;
+}
+
+.icon-playing-dices {
+    height: 32px;
+    width: auto;
+}
+
+#results {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.search-group {
+    max-width: 360px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.search-group .glyphicon {
+    color: rgba(51,102,187,0.6);
+    margin: 6px 6px 0 0;
+	font-size: 20px;
+}
+
+.search-group input {
+    background-color: #eee;
+    border: solid 5px rgba(51,102,187,0.6);
+    border-radius: 50px;
+    font-size: 16px;
+    max-width: auto; //366px;
+    height: auto;
+}
+
+.search-group input:focus {
+    border: solid 5px rgba(51,102,187,0.6);
+    box-shadow: none;
+}
+
+#title {
+    text-align: center;
+}
+
+.v-align-a {
+    display: table;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.v-align-b {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.v-align-c {
+    margin-left: auto;
+    margin-right: auto;
+    width: /* Whatever */;
+}
