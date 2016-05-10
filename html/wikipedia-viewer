@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='UTF-8'>
+    <title>Wikipedia Viewer</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel='stylesheet' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+
+    <!-- Font -->
+    <link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+
+    <!-- My CSS -->
+    <link rel='stylesheet' href='../css/wikipedia-viewer.css'>
+</head>
+
+<body>
+    
+   <div class='v-align-a'>
+        <div class='v-align-b'>
+            <div class='v-align-c'>
+
+                <div class='container-fluid'>
+
+                    <div id='title'>
+                        <h1>Nakedpedia</h1>
+                        Stripped-down Wikipedia by <a href='http://khail.github.io/' target='blank'>khailcs</a>
+                    </div>
+                    
+                    <div class='dice-div form-group has-feedback'>
+                        <button id='btn-random'>
+                             <img class='icon-playing-dices' src='https://farm8.staticflickr.com/7788/26309143464_91d53438f4_o.png' />
+                        </button>
+                        <br>
+                    </div>
+                    
+                    <div class='search-group form-group has-feedback'>
+                        <input id='searchterm' type='text' class='form-control' placeholder='Search' />
+                        <i class='form-control-feedback glyphicon glyphicon-search'></i>
+                    </div>
+                    
+                    <div id='results'></div>
+                    
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery library -->
+    <script src='http://code.jquery.com/jquery-latest.js'></script>
+
+    <!-- Bootstrap JavaScript -->
+    <script src='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
+
+    <!-- My JS -->
+    <script src='../js/wikipedia-viewer.js'></script>
+</body>
+
+</html>
