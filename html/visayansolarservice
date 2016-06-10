@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Visayan Solar Service</title>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css.css">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right" id="txt-menu">
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#services">SERVICES</a></li>
+                    <li><a href="#roi">ROI</a></li>
+                    <li><a href="#gallery">GALLERY</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Container (Home Section) -->
+    <div id="home">
+        <div class="jumbotron text-center">
+            <img id="logo-vss" src="https://c2.staticflickr.com/8/7262/27451272012_7a5bee45b1_o.png">
+            <h1 id="jumbo-company-name">VISAYAN<label id="txt-solar">SOLAR</label>SERVICE</h1>
+            <p id="we-are">We are the solar solution for your electricity needs.</p>
+            <p id="partner">In Partnership With</p>
+            <img id="logo-jsm" src="https://c2.staticflickr.com/8/7053/27549989815_f273032854_o.png">
+        </div>
+    </div>
+
+    <!-- Container (About Section) -->
+    <div id="about" class="container-fluid">
+        <div class="row">
+            <div class="letterhead" class="col-sm-12">
+                <img class="letterhead-vss" src="https://c2.staticflickr.com/8/7262/27451272012_7a5bee45b1_o.png">
+                <h1 class="letterhead-company-name">VISAYAN<label id="txt-solar">SOLAR</label>SERVICE</h1>
+            </div>
+            <div class="col-sm-12 text-center">
+                <br><br>
+                <div>
+                    <span class="glyphicon glyphicon-user"></span>
+                    <span class="glyphicon glyphicon-user"></span>
+                    <span class="glyphicon glyphicon-user"></span>
+                </div>
+                <h2>About Our Team</h2>
+                <h4>We, our team, are the solar electric solution for both residential and commercial solar installation and maintenance.</h4>
+                <br>
+                
+                <h2>OUR PHILOSOPHY</h2>
+                
+                <h4>
+                    Our clients come first. For all the right reasons, the client must be completely satisfied with all aspects of our service.
+                    <br><br>
+                    From consultation to installation, our clients must be advised on options for an install specific to their needs.
+                    <br><br><br>
+                    
+                    <blockquote>
+                        “This is common sense. I wonder why all companies don’t feel this way.”
+                        <br><br>
+                        ~ Jeff Davis, The Solar Guy
+                    </blockquote>
+                </h4>
+                <br>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid bg-success">
+        <div class="row">
+            <div class="col-sm-12">
+                <h2 class="text-center">Our Stories</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4">
+                <img class="bio-photo" src="https://c2.staticflickr.com/8/7555/27570033355_a54ee54c61_o.png">
+                
+                <div class="bio">
+                    <br>
+                    <strong>Jeff Davis</strong>
+                    <br>
+                    The Solar Guy
+                </div>
+                <br>
+
+                <h4 class="bio-text">
+                    Jeff has moved to Negros from Hawaii where he spent 25 years in the solar industry. "My passion is education", says the solar guy and you can see that in his long running radio show (6 years) Hawaii is Tomorrow, and now his weekly show here locally on 96.7 Bai Radio
+                    <br><br>
+                    "The solar electric future of the Philippines is about to explode!!! I've seen how that happened in Hawaii and the timing is perfect for the Philippines!!"
+                    <br><br>
+                    "Imagine... Protecting the environment while making a guaranteed investment with a 16% return for 25-35 years" so says the solar guy.
+                    <br><br>
+                    Google search Jeff at: The solar guy Jeff Davis
+                </h4>
+                <div class="row">
+                    <div class="col-xs-2">
+                        <img class="logo-vss-small" src="https://c2.staticflickr.com/8/7262/27451272012_7a5bee45b1_o.png">
+                    </div>
+                    <div class="col-xs-10">
+                        <h4 class="company-name-small">VISAYAN<label id="txt-solar">SOLAR</label>SERVICE</h4>
+                    </div>
+                </div>
+                <br><hr><br>
+            </div>
+        
+            <div class="col-sm-4">
+                <img class="bio-photo" src="https://c2.staticflickr.com/8/7379/27570033685_81ab3984b1_o.png">
+                
+                <div class="bio">
+                    <br>
+                    <strong>Augusto Tebio</strong>
+                    <br>
+                    The Electrical Engineer
+                </div>
+                <br>
+
+                <h4 class="bio-text">
+                    "I saw the potential for solar roof top production and knew immediately that I would be on the cutting edge of this expanding industry. As a master electrician, I always love a challenge. In this case, my entrie career has led me to this moment.
+                    <br><br>
+                    "Working with Jeff was just what I was hoping for. His knowlege of equipment and application of installation is a perfect match with my background. Jeff understands the basics, safety, reliablity, and roof penetration water proofing!!!
+                    <br><br>
+                    "We work very well together and I'm looking forward to many many years of involvement together."
+                </h4>
+                <div class="row">
+                    <div class="col-xs-2">
+                        <img class="logo-jsm-small" src="https://c2.staticflickr.com/8/7053/27549989815_f273032854_o.png">
+                    </div>
+                </div>
+                <br><br><hr><br>
+            </div>
+        
+            <div class="col-sm-4">
+                <img class="bio-photo" src="https://c2.staticflickr.com/8/7277/27293196530_4d70cd9d2c_o.png">
+                
+                <div class="bio">
+                    <br>
+                    <strong>Ailyn Magalso Cabag</strong>
+                    <br>
+                    The CFO
+                </div>
+                <br>
+
+                <h4 class="bio-text">
+                    “I’ve always been business minded. My first portable chicken food cart in Sta. Catalina was just an inkling of my drive, ambition, and potential” says Ailyn.
+                    <br><br>
+                    Ailyn is the perfect Office Manager and Financial Officer. “Cross the T's and dot the I's” and most important keep the clients informed and happy.
+                    <br><br>
+                    “I love what I do” says Ailyn. Without her commitment and drive, it wouldn’t be as fun and rewarding. She earns respect from all quarters, Employees, Install crews, Electricians, but most of all the Clients.
+                </h4>
+                <div class="row">
+                    <div class="col-xs-2">
+                        <img class="logo-vss-small" src="https://c2.staticflickr.com/8/7262/27451272012_7a5bee45b1_o.png">
+                    </div>
+                    <div class="col-xs-10">
+                        <h4 class="company-name-small">VISAYAN<label id="txt-solar">SOLAR</label>SERVICE</h4>
+                    </div>
+                </div>
+                <br><hr>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container-fluid bg-white">
+        <h2 class="text-center">OUR PROVEN EXPERTISE</h2>
+        
+        <h4>
+            Solar electric is relatively new to the Philippines. Other parts of the world have embraced this technology as we do any other necessity for an economically viable commodity.
+            <br><br>
+            Yet solar is a new concept to many. The mechanics are quite simple. There are no moving parts, the only maintenance is washing the panels every 6 months.
+            <br><br>
+            Master electrician Augusto Tebio was the first to install a large scale solar project in Foundation University years ago (160 solar panels on the north campus).
+            <br><br>
+            <blockquote>
+                “My career in solar spans 28 years. Mostly in Hawaii which has so many similarities to the Philippines. Augusto Tebio is an Electrician and a man I can trust. There is a right way and a wrong way to attach solar electric. Augusto knows the right way and will promptly stop any wrong or half-way measures of an installation. He understands. Substandard work only creates a bad work environment, and can only hurt the finished product. That’s why we partner so well, we both understand this basic teanant of contracting”
+                <br><br>
+                ~ Jeff Davis
+            </blockquote>
+            <br><br>
+        </h4>
+    </div>
+
+    <!-- Container (Services Section) -->
+    <div id="services" class="container-fluid text-center jumbotron-plain">
+        <div class="letterhead" class="col-sm-12">
+            <img class="letterhead-vss" src="https://c2.staticflickr.com/8/7262/27451272012_7a5bee45b1_o.png">
+            <h1 class="letterhead-company-name">VISAYAN<label id="txt-solar">SOLAR</label>SERVICE</h1>
+        </div>
+        
+        <br><br>
+        <span class="glyphicon glyphicon-heart"></span>
+        <span class="glyphicon glyphicon-wrench"></span>
+        <span class="glyphicon glyphicon-briefcase"></span>
+        <h2>SERVICES</h2>
+        <br>
+        
+        <h4>        
+            <strong>EQUIPMENT</strong>
+            <br><br>
+            Top tier panels are of a certain quality that allows import and export internationally. These panels have 25 years warranties (80% of original output) and are used in large scale utility projects (solar farms) as well as residential. Any attempt to “sell” solar based on professed “Better” panel is a sales pitch and should be avoided. There are certain situations that paying a significant premium for a more efficient.
+            <br><br>
+            Panel makes sense. For instance, when your electric bill is very high but your available roof space is small. Otherwise, why pay more for the same product-electricity. There is no better form of electricity to speak of it is what it is.
+            <br><br>
+            Buy top tier panel, many have warranties underwritten by large insurance firms (such us AIG) to guarantee the 25 year coverage.
+            <br><br><br><br>
+            
+            <strong>BUY NOW – OR WAIT</strong>
+            <br><br>
+            The idea that solar products will perform better in the future is given. Waiting for that day is a bad economic plan. 
+            <br><br>
+            Add the cost of your electric bill payments accrued while waiting and you will have lost much more $ than you might save by technological advance. 
+            <br><br>
+            Remember, it’s all the same in the end. Free electricity. You don’t need the latest-greatest panel to produce the exact same product.
+            <br><br>
+            There is NO magic-free product coming to you in your lifetime. 
+            <br><br><br><br>
+        </h4>
+    </div>
+    <div class="container-fluid text-center">
+        <h4>
+            <strong>INVERTER</strong>
+            <br><br>
+            The inverter’s job is to take the Direct Current (DC) provided from the sun and invert that to Alternating Current (AC) that can be used for all purpose and export safely to the electric grid.
+            <br><br><br>
+            
+            <strong>Types of Inverters</strong>
+            <br><br>
+            
+            <strong>Central</strong>
+            <br><br>This device is the inverter technology has progressed for over 60 years and is used exclusively in commercial application as well as residential. The efficiency of DC to AC is approximately 90% high.
+            <br><br>
+            These inverters harvest more solar energy than any other type of inverter. They are proven and reliable. A typical central inverter could last 15-20 years and be replaced at an affordable cost.
+            <br><br>
+            
+            <strong>Micro Inverters</strong>
+            <br><br>
+            Micro inverters entered the market very recently. The inverter is very small and each panel has one. The sales pitch is that if one fails “the rest still work.” From vast experience I can tell you that you will spend the rest of your life replacing them one after the other. Replacing a defective micro inverter (Basically a toy) is very time consuming and expensive. Yes, they may offer a “great” warranty, but taking apart the system to reach the “Broken” inverter is a labor nightmare. Micro inverters have a much lower rate of inverting DC-to-AC. Approximately 86-88% inversion as compared to the mid 95% of central inverters. 
+            <br><br>
+            From my experience, they are a cheap way to install. The installer saves money while having a great sales pitch. “Every panel has one.” And every one will fail in due time. Good luck getting your installer to continue to replace them month after month.
+            <br><br><br>
+            Inverters generate heat. That heat is the enemy of the electronics. These “micro toys” cannot handle the heat nor the wear and tear of the environment as they are on the roof, not protected as a central inverter.  Although Central inverters are able to be installed outside in the elements, they are not directly on the roof. Not only the heat of inverting is an enemy, but the heat of the sun as well.  
+            <br><br><br><br>
+        </h4>
+    </div>
+    <div class="container-fluid text-center jumbotron-plain">
+        <h4>
+            <strong>WATER PROOFING</strong>
+            <br><br>
+            There is a solar company born every day. The economic driver that is solar is taking over the world’s market. The drive is money. That’s fine if you’re selling fashion or diet supplements, but we in the industry require license, experience, electrical proficiency, and safety.
+            <br><br>
+            Did you know? Solar installation is 70% roof penetration and waterproofing?  
+            <br><br>
+            Professional companies “respect the roof.” Startup companies “respect the profit.”
+            <br><br>
+            All roof types require a different approach to guarantee a waterproof installation. Saving money on the electric bill is wonderful, but not to the expense of a leaking roof.
+            <br><br>
+            We stand behind our workmanship and experience. We offer a FIVE YEAR Workmanship Warranty.
+            <br><br>
+            For those who don’t know, this is primarily a waterproofing warranty—Very important!!!
+            <br><br>
+            Typically, if you use a central inverter you will have zero problems with the function of your P.V. solar cleaning of panels is recommended at least 2 times per year. Water and Broom.
+            <br><br>
+            However, the integrity of your roof penetration is of utmost concern. 
+            <br><br>
+            Final advise—use a professional, not a marketing company.
+            <br><br><br>
+            PLEASE NOTE. YOUR WORKMANSHIP WARRANTY IS ONLY AS GOOD AS YOUR INSTALLER. USE A PROVEN CONTRACTOR.
+            <br><br><br><br>
+
+            <strong>SOLAR LEASING VS OUTRIGHT PURCHASE</strong>
+            <br><br>
+            Just as leasing a car is expensive relative to direct purchase, so is Solar leasing. <strong>You pay 5 to 8 times the cost of Direct Purchase over the term of lease!!!</strong>
+            <br><br>
+        </h4>
+    </div>
+
+    <!-- Container (ROI Section) -->
+    <div id="roi" class="container-fluid">
+        <div class="text-center">
+            <div class="letterhead" class="col-sm-12">
+                <img class="letterhead-vss" src="https://c2.staticflickr.com/8/7262/27451272012_7a5bee45b1_o.png">
+                <h1 class="letterhead-company-name">VISAYAN<label id="txt-solar">SOLAR</label>SERVICE</h1>
+            </div>
+        
+            <br><br>
+            <span class="glyphicon glyphicon-euro"></span>
+            <span class="glyphicon glyphicon-usd"></span>
+            <span class="glyphicon glyphicon-yen"></span>
+            
+            <h2>Return On Investment</h2>
+            <h4>Choose a payment plan that works for you</h4>
+            
+            <h2>
+                <br>
+                “FEED IN TARIFF”
+                <br>
+                (RENT TO OWN)
+            </h2>
+            <h4 style="text-align: justify">
+                There are basically two ways to incorporate Solar electricity into your Budget. 
+                <br><br>
+                1.	Buy your equipment with a 4 – 5 YEAR RETURN ON INVESTMENT (R.O.I.) with a 30 – 40 year lifespan of production 
+                <br><br>
+                2.	Rent to  Own, technically know as “Feed in Tariff” with the  Rent to own model 
+                    <br><br>
+                    <label style="margin-left: 5em">
+                        a.	There is no Initial investment necessary. No money to start.
+                        <br><br>
+                        b.	You pay a financing firm for the electricity produced during the day at the same rate or less that you currently pay your local utility for electricty. Your Budget stays the same.
+                        <br><br>
+                        c.	This rate is “locked in” for the term of agreement. It will not go up annually as your local provider does.
+                        <br><br>
+                        d.	At an agreed upon term you will own the system and enjoy 20 – 30 years of production as profit.
+                    </label>
+
+                <br><br>
+                Hence the term Rent to Own where our clients use their existing budgets to make payments to own the system as opposed to ever increasing payments to the utility company.
+                
+                <br><br>
+                Your night time consumption is still delivered by your local utility as battery storage is not yet cost effective for most applications.
+
+                <br><br><br>
+                <strong>SUMMARY</strong>
+                
+                <br><br>
+                Simply by using your existing budget for electricity during daytime usage, you can make (Rent to Own) payments with fixed costs (no increase) to make equity payments to own the system.
+                
+                <br><br>
+                Your other options is to pay your ever increasing electric bill for eternity on interest only terms.
+            </h4>
+
+
+            <h2>
+                <br><br>
+                DIRECT PURCHASE OF SOLAR ELECTRIC PRODUCTS
+            </h2>
+
+             <h4 style="text-align: justify">
+                Solar panels are a simple yet very effective way to make  your own electricity and save millions of pesos over the years.
+
+                <br><br>
+                The Return on Investment is only 4 - 5 years!
+
+                <br><br>
+                These systems include panels, Installation Racking, and an inverter system to change the DC (Direct Current) produced by the panel into AC (Alternating Current) used in our grid. These is also monitoring to know “exactly” how much electricity is being generated.
+
+                <br><br>
+                Your property is still collected to the utility service in your area. These systems generate only daylight hours. Battens will be affordable to connect with  the system in approximately 3 - 4 years.
+            </h4>
+
+            <h2>
+                <br><br>
+                Return on Investment
+                <br>
+                (Based on size of System)
+            </h2>
+
+             <h4 style="text-align: justify">
+                <br>
+                 One panel cost = PH ₱ 22,500.00 *Approximate cost
+
+                <br><br>
+                One panel savings per month = PH ₱ 400.00+
+
+                <hr style="max-width: 500px;">
+                Return on Investment = 56 months
+
+
+                <br><br><br>
+                A.	Factor depreciation for commercial application -> ₱ ₱ ₱
+
+                <br><br>
+                B.	Increasing costs from your utility company -> ₱ ₱ ₱
+
+
+                <hr style="max-width: 500px;">
+                <strong>Return on Investment = 4 - 4 1/2 years</strong>
+
+            </h4>
+        </div>
+    </div>
+    <div class="container-fluid text-center jumbotron-plain">
+        <div></div>
+            <h2>
+                Our commitment to you:
+            </h2>
+
+            <h4 style="text-align: justify"> 
+                Our company is dedicated to your satisfaction.
+
+                <br><br>
+                Our international backgrounds in renewable energy include multiple decades of experience in many countries.
+
+                <br><br>
+                Without your complete Satisfaction, our reputation and future will not be possible.
+
+                <br><br>
+                Our commitment is to provide equitable solutions at the fairest cost possible.
+            </h4>
+        </div>
+    </div>
+
+    <!-- Container (Gallery Section) -->
+    <div id="gallery" class="container bg-white text-center ">
+        <div class="letterhead" class="col-sm-12">
+            <img class="letterhead-vss" src="https://c2.staticflickr.com/8/7262/27451272012_7a5bee45b1_o.png">
+            <h1 class="letterhead-company-name">VISAYAN<label id="txt-solar">SOLAR</label>SERVICE</h1>
+        </div>
+        
+        <br><br>
+        <span class="glyphicon glyphicon-camera"></span>
+        <span class="glyphicon glyphicon-film"></span>
+        <span class="glyphicon glyphicon-facetime-video"></span>
+        <h2>GALLERY</h2>
+        <br>
+        
+        <div class="row">
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail">
+                    <img class="img-responsive" src="https://c4.staticflickr.com/8/7457/26967096363_18f0a99a83_o.jpg">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail">
+                    <img class="img-responsive" src="https://c2.staticflickr.com/8/7427/27576001585_e878d90354_o.jpg">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail">
+                    <img class="img-responsive" src="https://c4.staticflickr.com/8/7627/26967096003_dd2a37df20_o.jpg">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail">
+                    <img class="img-responsive" src="https://c2.staticflickr.com/8/7501/27576000945_0236834c5a_o.jpg">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail">
+                    <img class="img-responsive" src="https://c2.staticflickr.com/8/7493/26967095593_b632cc625b_o.jpg">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail">
+                    <img class="img-responsive" src="https://c2.staticflickr.com/8/7050/27576000185_09f86c6d66_o.jpg">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail">
+                    <img class="img-responsive" src="https://c8.staticflickr.com/8/7745/26967095303_710518dc04_o.jpg">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail">
+                    <img class="img-responsive" src="https://c6.staticflickr.com/8/7329/27575999445_d4a8926913_o.jpg">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail">
+                    <img class="img-responsive" src="https://c2.staticflickr.com/8/7405/26967095113_eca8c0bcd6_o.jpg">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail">
+                    <img class="img-responsive" src="https://c7.staticflickr.com/8/7333/27299075310_1a06bc22b9_o.jpg">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail">
+                    <img class="img-responsive" src="https://c1.staticflickr.com/8/7519/27299074800_fbedfc8aaa_o.jpg">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail">
+                    <img class="img-responsive" src="https://c6.staticflickr.com/8/7177/26967095053_c3f2b70807_o.jpg">
+                </a>
+            </div>
+            
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail">
+                    <img class="img-responsive" src="https://c8.staticflickr.com/8/7407/26967094863_461d8e6be7_o.jpg">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail">
+                    <img class="img-responsive" src="https://c1.staticflickr.com/8/7340/27299074400_84e9f387d1_o.jpg">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail">
+                    <img class="img-responsive" src="https://c6.staticflickr.com/8/7720/26967094773_66b9ba439a_o.jpg">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail">
+                    <img class="img-responsive" src="https://c1.staticflickr.com/8/7194/27299073880_23594e3b5b_o.jpg">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail">
+                    <img class="img-responsive" src="https://c4.staticflickr.com/8/7282/26967094683_1b39e18c57_o.jpg">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail">
+                    <img class="img-responsive" src="https://c3.staticflickr.com/8/7083/27299073210_038c0f6d88_o.jpg">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail">
+                    <img class="img-responsive" src="https://c4.staticflickr.com/8/7637/26967094603_4e459258df_o.jpg">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail">
+                    <img class="img-responsive" src="https://c5.staticflickr.com/8/7060/27299072740_e41e2c71cf_o.jpg">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail">
+                    <img class="img-responsive" src="https://c4.staticflickr.com/8/7365/26967094523_918bd0e8ee_o.jpg">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail">
+                    <img class="img-responsive" src="https://c1.staticflickr.com/8/7688/27299072320_1aea04e483_o.jpg">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail">
+                    <img class="img-responsive" src="https://c4.staticflickr.com/8/7654/27503269971_d896e38dac_o.jpg">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail">
+                    <img class="img-responsive" src="https://c5.staticflickr.com/8/7320/27299071900_e7e5062a67_o.jpg">
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Container (Contact Section) -->
+    <div id="contact" class="container-fluid bg-white text-center">
+        <h2 class="text-center">CONTACT</h2>
+        <p>
+            <span class="glyphicon glyphicon-map-marker"></span>
+            Corner San Juan & Ma. Christina St., Dumaguete City, Philippines
+        </p>
+        <p><span class="glyphicon glyphicon-phone"></span> PH: +63975 330 2836</p>
+        <p><span class="glyphicon glyphicon-phone"></span> US: +1 808 554 7200</p>
+        <p>
+            <span class="glyphicon glyphicon-envelope"></span>
+            thesolarguyjeffdavis@gmail.com
+        </p>
+    </div>
+
+    <div id="googleMap" style="height:400px;width:100%;"></div>
+
+    <!-- Add Google Maps -->
+    <script src="http://maps.googleapis.com/maps/api/js"></script>
+    <script>
+        var myCenter = new google.maps.LatLng(9.3068, 123.3054);
+
+        function initialize() {
+            var mapProp = {
+                center: myCenter,
+                zoom: 12,
+                scrollwheel: false,
+                draggable: false,
+                mapTypeId: google.maps.MapTypeId.ROADMAP
+            };
+
+            var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
+
+            var marker = new google.maps.Marker({
+                position: myCenter,
+            });
+
+            marker.setMap(map);
+        }
+
+        google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+
+    <footer class="container-fluid text-center">
+        <p>© 2015 Visayan Solar Service. All Rights Reserved.</p>
+        <a href="#myPage" title="To Top">
+            <span class="glyphicon glyphicon-chevron-up"></span>
+        </a>
+    </footer>
+    
+    
+    
+
+    <script>
+        $(document).ready(function() {
+            // Add smooth scrolling to all links in navbar + footer link
+            $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+                // Make sure this.hash has a value before overriding default behavior
+                if (this.hash !== "") {
+                    // Prevent default anchor click behavior
+                    event.preventDefault();
+
+                    // Store hash
+                    var hash = this.hash;
+
+                    // Using jQuery's animate() method to add smooth page scroll
+                    // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 900, function() {
+
+                        // Add hash (#) to URL when done scrolling (default click behavior)
+                        window.location.hash = hash;
+                    });
+                } // End if
+            });
+
+            $(window).scroll(function() {
+                $(".slideanim").each(function() {
+                    var pos = $(this).offset().top;
+
+                    var winTop = $(window).scrollTop();
+                    if (pos < winTop + 600) {
+                        $(this).addClass("slide");
+                    }
+                });
+            });
+        })
+    </script>
+
+</body>
+
+</html>
