@@ -1,10 +1,31 @@
 a {
     cursor: pointer;
 }
+a:active {
+    color: orangered;
+    text-decoration: none;
+}
+a:hover {
+    color: orangered;
+    text-decoration: none;
+}
+a:link {
+    color: orangered;
+    text-decoration: none;
+}
+a:visited {
+    color: orangered;
+    text-decoration: none;
+}
 body {
     font: 400 15px Arial;
     line-height: 1.8;
     color: #818181;
+}
+body { // For fullscreen bg
+	margin-top: 50px;
+	margin-bottom: 50px;
+	background: none;
 }
 footer .glyphicon {
     font-size: 20px;
@@ -35,8 +56,24 @@ hr {
 }
 
 
+.bg-gray-light {
+    background-color: #ddd;
+}
 .bg-grey {
     background-color: #f6f6f6;
+}
+.bg-plain {
+    background: url("https://c1.staticflickr.com/8/7179/26926426904_fb62f9ba18_o.jpg");
+}
+.bg-solar-full {
+    background: url("https://c3.staticflickr.com/8/7118/27531047426_159ce9f8c5_o.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.bg-white {
+    background:#ffffff !important;
 }
 .bio {
     color: #000;
@@ -76,6 +113,12 @@ hr {
 .glyphicon {
     color: #000;
 }
+.home-contents {
+    color: #fff;
+    margin-top: 280px;
+    margin-bottom: 150px;
+    font-family: Arial Black;
+}
 .item h4 {
     font-size: 19px;
     line-height: 1.375em;
@@ -85,16 +128,6 @@ hr {
 }
 .item span {
     font-style: normal;
-}
-.jumbotron {
-    background: url("https://c3.staticflickr.com/8/7118/27531047426_159ce9f8c5_o.jpg") no-repeat;
-    color: #fff;
-    padding: 275px 25px;
-    margin-top: 40px;
-    font-family: Arial Black;
-}
-.jumbotron-plain {
-    background: url("https://c1.staticflickr.com/8/7179/26926426904_fb62f9ba18_o.jpg");
 }
 .letterhead {
     color: orangered;
@@ -233,6 +266,11 @@ hr {
     background-color: #f4511e;
     color: #fff;
 }
+.section-heading {
+    font-size: 32px;
+    color: #000;
+    font-family: Arial Black;
+}
 .thumb {
     margin-bottom: -16px;
 }
@@ -258,6 +296,12 @@ hr {
     animation-duration: 1s;
     -webkit-animation-duration: 1s;
     visibility: visible;
+}
+.txt-vss {
+    font-size: 22px;
+    font-family: Arial Black;
+    color: #fff;
+    margin-left: 12px;
 }
 
 
@@ -298,6 +342,9 @@ hr {
 }
 
 
+#contact {
+   color: #000;
+}
 #jumbo-company-name {
     margin-top: -80px;
     letter-spacing: 0px;
@@ -324,6 +371,11 @@ hr {
     font-size: 28px;
     line-height: 1;
     color: springgreen;
+    -webkit-filter: drop-shadow(2px 2px 2px #222);
+    filter: drop-shadow(2px 2px 2px #222);
+}
+#txt-copyright {
+    color: #fff;
     -webkit-filter: drop-shadow(2px 2px 2px #222);
     filter: drop-shadow(2px 2px 2px #222);
 }
