@@ -66,11 +66,16 @@ hr {
     background: url("https://c1.staticflickr.com/8/7179/26926426904_fb62f9ba18_o.jpg");
 }
 .bg-solar-full {
-    background: url("https://c3.staticflickr.com/8/7118/27531047426_159ce9f8c5_o.jpg") no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    background: url("https://c3.staticflickr.com/8/7118/27531047426_159ce9f8c5_o.jpg");
+    // no-repeat center center fixed; 
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    
+    background-repeat: no-repeat;  
+    background-attachment: scroll;  
+    background-position: 0% 0%;
 }
 .bg-white {
     background:#ffffff !important;
