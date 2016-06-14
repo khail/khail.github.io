@@ -30,7 +30,7 @@ body { // For fullscreen bg
 footer .glyphicon {
     font-size: 20px;
     margin-bottom: 20px;
-    color: #f4511e;
+    color: orangered;
 }
 h2 {
     font-size: 24px;
@@ -51,8 +51,9 @@ hr {
     height: 1px;
     border: 0;
     border-top: 1px solid #aaa;
-    margin: 1em 0;
-    padding: 0; 
+    margin: 1em 0 1em;
+    padding: 0;
+    width: 50%;
 }
 
 
@@ -100,6 +101,11 @@ hr {
     background-image: none;
     color: #f4511e;
 }
+.center-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 .company-name-small {
     height: 50px;
     color: orangered;
@@ -112,6 +118,7 @@ hr {
 }
 .glyphicon {
     color: #000;
+    font-size: 20px;
 }
 .home-contents {
     color: #fff;
@@ -271,6 +278,16 @@ hr {
     color: #000;
     font-family: Arial Black;
 }
+.slideanim {
+    visibility: hidden;
+}
+.slide {
+    animation-name: slide;
+    -webkit-animation-name: slide;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    visibility: visible;
+}
 .thumb {
     margin-bottom: -16px;
 }
@@ -285,23 +302,15 @@ hr {
     height: 100%;
     margin-bottom: 10px;
 }
-
-
-.slideanim {
-    visibility: hidden;
-}
-.slide {
-    animation-name: slide;
-    -webkit-animation-name: slide;
-    animation-duration: 1s;
-    -webkit-animation-duration: 1s;
-    visibility: visible;
+.txt-justify {
+    text-align: justify;
 }
 .txt-vss {
     font-size: 22px;
     font-family: Arial Black;
     color: #fff;
     margin-left: 12px;
+    margin-top: 4px;
 }
 
 
@@ -345,6 +354,13 @@ hr {
 #contact {
    color: #000;
 }
+#googleMap {
+    height:400px;
+    width:100%;
+}
+#indent-roi {
+    margin-left: 16px;
+}
 #jumbo-company-name {
     margin-top: -80px;
     letter-spacing: 0px;
@@ -357,6 +373,9 @@ hr {
     margin-top: -20px;
     -webkit-filter: drop-shadow(4px 4px 4px #ccc);
     filter: drop-shadow(4px 4px 4px #fff);
+}
+#logo-jsm-about {
+    margin-bottom: -10px;
 }
 #logo-vss {
     margin-top: -340px;
