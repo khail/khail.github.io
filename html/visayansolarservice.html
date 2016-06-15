@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../css/visayansolarservice.css">
+    <link rel="stylesheet" href="css.css">
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
@@ -19,7 +19,7 @@
     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
-                <div class="txt-vss"><a href="#home">VISAYAN<span id="txt-solar">SOLAR</span>SERVICE</a></div>
+                <div class="txt-vss"><a href="#home">VISAYAN<span class="txt-solar-light">SOLAR</span>SERVICE</a></div>
                     
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                     <span class="icon-bar"></span>
@@ -42,8 +42,8 @@
     <!-- Container (Home Section) -->
     <div class="container-fluid text-center">
         <div class="home-contents">
-            <img id="logo-vss" src="https://c2.staticflickr.com/8/7262/27451272012_7a5bee45b1_o.png">
-            <h1 id="jumbo-company-name">VISAYAN<label id="txt-solar">SOLAR</label>SERVICE</h1>
+            <img id="logo-vss" class="center-img" src="https://c2.staticflickr.com/8/7262/27451272012_7a5bee45b1_o.png">
+            <span id="jumbo-company-name">VISAYAN<label class="txt-solar-light">SOLAR</label>SERVICE</span>
             <p id="we-are">We are the solar solution for your electricity needs.</p>
             <p id="partner">In Partnership With</p>
             <br>
@@ -57,17 +57,17 @@
             <div class="col-sm-12 text-center">
                 <br><br>
                 <div>
-                    <span class="glyphicon glyphicon-user"></span>
-                    <span class="glyphicon glyphicon-user"></span>
-                    <span class="glyphicon glyphicon-user"></span>
+                    <span style="color:orangered" class="glyphicon glyphicon-user"></span>
+                    <span style="color:orangered" class="glyphicon glyphicon-user"></span>
+                    <span style="color:orangered" class="glyphicon glyphicon-user"></span>
                 </div>
                 
-                <div class="section-heading">ABOUT OUR TEAM</div>
+                <div style="color:orangered" class="section-heading">ABOUT US</div>
                 
                 <h4>We are the solution for both residential and commercial solar installation and maintenance.</h4>
-                <br>
                 
-                <h2>OUR PHILOSOPHY</h2>
+                <br>
+                <h2 style="color:orangered">OUR PHILOSOPHY</h2>
                 
                 <h4>
                     Our clients come first. Our clients must be completely satisfied with all aspects of our service.
@@ -81,15 +81,14 @@
                         ~ Jeff Davis, The Solar Guy
                     </blockquote>
                 </h4>
-                <br>
             </div>
         </div>
     </div>
 
-    <div class="container-fluid bg-gray-light">
+    <div class="container-fluid bg-plain-blue">
         <div class="row">
             <div class="col-sm-12">
-                <h2 class="text-center">Our Stories</h2>
+                <h1 class="text-center" style="color:orangered">Our Stories</h1>
             </div>
         </div>
         <div class="row">
@@ -97,7 +96,7 @@
                 <br>
                 <img class="bio-photo" src="https://c2.staticflickr.com/8/7555/27570033355_a54ee54c61_o.png">
                 
-                <div class="bio">
+                <div class="bio-name">
                     <br>
                     <strong>Jeff Davis</strong>
                     <br>
@@ -110,7 +109,7 @@
                         <img class="logo-vss-small"src="https://c2.staticflickr.com/8/7262/27451272012_7a5bee45b1_o.png">
                     </div>
                     <div class="col-xs-10">
-                        <h4 class="company-name-small">VISAYAN<label id="txt-solar">SOLAR</label>SERVICE</h4>
+                        <h4 class="company-name-small">VISAYAN<label class="txt-solar-light">SOLAR</label>SERVICE</h4>
                     </div>
                 </div>
 
@@ -129,7 +128,7 @@
                 <br>
                 <img class="bio-photo" src="https://c2.staticflickr.com/8/7379/27570033685_81ab3984b1_o.png">
                 
-                <div class="bio">
+                <div class="bio-name">
                     <br>
                     <strong>Augusto Tebio</strong>
                     <br>
@@ -157,7 +156,7 @@
                 <br>
                 <img class="bio-photo" src="https://c2.staticflickr.com/8/7277/27293196530_4d70cd9d2c_o.png">
                 
-                <div class="bio">
+                <div class="bio-name">
                     <br>
                     <strong>Ailyn Magalso Cabag</strong>
                     <br>
@@ -170,7 +169,7 @@
                         <img class="logo-vss-small"src="https://c2.staticflickr.com/8/7262/27451272012_7a5bee45b1_o.png">
                     </div>
                     <div class="col-xs-10">
-                        <h4 class="company-name-small">VISAYAN<label id="txt-solar">SOLAR</label>SERVICE</h4>
+                        <h4 class="company-name-small">VISAYAN<label class="txt-solar-light">SOLAR</label>SERVICE</h4>
                     </div>
                 </div>
 
@@ -186,7 +185,7 @@
     </div>
     
     <div class="container-fluid bg-white">
-        <h2 class="text-center">OUR PROVEN EXPERTISE</h2>
+        <h1>OUR PROVEN EXPERTISE</h1>
         
         <h4>
             Solar electric is relatively new to the Philippines. Other parts of the world have embraced this technology as we do any other necessity for an economically viable commodity.
@@ -200,31 +199,31 @@
                 <br><br>
                 ~ Jeff Davis
             </blockquote>
-            <br><br>
         </h4>
     </div>
 
     <!-- Container (Services Section) -->
-    <div id="services" class="container-fluid text-center bg-plain">
+    <div id="services" class="container-fluid text-center drop-shadow">
         <br><br>
-        <span class="glyphicon glyphicon-wrench"></span>
-        <span class="glyphicon glyphicon-wrench"></span>
-        <span class="glyphicon glyphicon-wrench"></span>
+        <span style="color:orangered" class="glyphicon glyphicon-wrench"></span>
+        <span style="color:orangered" class="glyphicon glyphicon-wrench"></span>
+        <span style="color:orangered" class="glyphicon glyphicon-wrench"></span>
         
         <div class="section-heading">SERVICES</div>
-        <br>
-        
-        <h4>        
-            <strong>EQUIPMENT</strong>
+        <br><br><br>
+    </div>
+    <div class="container-fluid text-center bg-white">
+        <h4 class="text-left">        
+            <strong style="color:orangered">EQUIPMENT</strong>
             <br><br>
             Top tier panels are of a certain quality that allows import and export internationally. These panels have 25 years warranties (80% of original output) and are used in large scale utility projects (solar farms) as well as residential. Any attempt to “sell” solar based on professed “Better” panel is a sales pitch and should be avoided. There are certain situations that paying a significant premium for a more efficient.
             <br><br>
             Panel makes sense. For instance, when your electric bill is very high but your available roof space is small. Otherwise, why pay more for the same product-electricity. There is no better form of electricity to speak of it is what it is.
             <br><br>
             Buy top tier panel, many have warranties underwritten by large insurance firms (such us AIG) to guarantee the 25 year coverage.
-            <br><br><br><br>
+            <br><br><br>
             
-            <strong>BUY NOW – OR WAIT</strong>
+            <strong style="color:orangered">BUY NOW – OR WAIT</strong>
             <br><br>
             The idea that solar products will perform better in the future is given. Waiting for that day is a bad economic plan. 
             <br><br>
@@ -232,40 +231,38 @@
             <br><br>
             Remember, it’s all the same in the end. Free electricity. You don’t need the latest-greatest panel to produce the exact same product.
             <br><br>
-            There is NO magic-free product coming to you in your lifetime. 
-            <br><br><br><br>
+            There is NO magic-free product coming to you in your lifetime.
         </h4>
     </div>
-    <div class="container-fluid text-center bg-white">
-        <h4>
-            <strong>INVERTER</strong>
-            <br><br>
+    <div class="container-fluid bg-plain text-left">
+        <h1>INVERTER</h1>
+        
+        <h4>    
             The inverter’s job is to take the Direct Current (DC) provided from the sun and invert that to Alternating Current (AC) that can be used for all purpose and export safely to the electric grid.
             <br><br><br>
             
-            <strong>Types of Inverters</strong>
+            <strong style="color:orangered">TYPES OF INVERTERS</strong>
             <br><br>
             
-            <strong>Central</strong>
+            <strong style="color:orangered">Central</strong>
             <br><br>This device is the inverter technology has progressed for over 60 years and is used exclusively in commercial application as well as residential. The efficiency of DC to AC is approximately 90% high.
             <br><br>
             These inverters harvest more solar energy than any other type of inverter. They are proven and reliable. A typical central inverter could last 15-20 years and be replaced at an affordable cost.
-            <br><br>
+            <br><br><br>
             
-            <strong>Micro Inverters</strong>
+            <strong style="color:orangered">Micro Inverters</strong>
             <br><br>
             Micro inverters entered the market very recently. The inverter is very small and each panel has one. The sales pitch is that if one fails “the rest still work.” From vast experience I can tell you that you will spend the rest of your life replacing them one after the other. Replacing a defective micro inverter (Basically a toy) is very time consuming and expensive. Yes, they may offer a “great” warranty, but taking apart the system to reach the “Broken” inverter is a labor nightmare. Micro inverters have a much lower rate of inverting DC-to-AC. Approximately 86-88% inversion as compared to the mid 95% of central inverters. 
             <br><br>
             From my experience, they are a cheap way to install. The installer saves money while having a great sales pitch. “Every panel has one.” And every one will fail in due time. Good luck getting your installer to continue to replace them month after month.
-            <br><br><br>
+            <br><br>
+            <br><br>
             Inverters generate heat. That heat is the enemy of the electronics. These “micro toys” cannot handle the heat nor the wear and tear of the environment as they are on the roof, not protected as a central inverter.  Although Central inverters are able to be installed outside in the elements, they are not directly on the roof. Not only the heat of inverting is an enemy, but the heat of the sun as well.  
-            <br><br><br><br>
         </h4>
     </div>
-    <div class="container-fluid text-center bg-plain">
+    <div class="container-fluid bg-plain-blue">
+        <h1>WATER PROOFING</h1>
         <h4>
-            <strong>WATER PROOFING</strong>
-            <br><br>
             There is a solar company born every day. The economic driver that is solar is taking over the world’s market. The drive is money. That’s fine if you’re selling fashion or diet supplements, but we in the industry require license, experience, electrical proficiency, and safety.
             <br><br>
             Did you know? Solar installation is 70% roof penetration and waterproofing?  
@@ -284,33 +281,36 @@
             <br><br>
             Final advise—use a professional, not a marketing company.
             <br><br><br>
-            PLEASE NOTE. YOUR WORKMANSHIP WARRANTY IS ONLY AS GOOD AS YOUR INSTALLER. USE A PROVEN CONTRACTOR.
-            <br><br><br><br>
-
-            <strong>SOLAR LEASING VS OUTRIGHT PURCHASE</strong>
-            <br><br>
+            <strong>PLEASE NOTE. YOUR WORKMANSHIP WARRANTY IS ONLY AS GOOD AS YOUR INSTALLER. USE A PROVEN CONTRACTOR.</strong>
+        </h4>
+    </div>
+    <div class="container-fluid bg-white">
+        <h1>SOLAR LEASING VS OUTRIGHT PURCHASE</h1>
+        <h4>
             Just as leasing a car is expensive relative to direct purchase, so is Solar leasing. <strong>You pay 5 to 8 times the cost of Direct Purchase over the term of lease!!!</strong>
-            <br><br>
         </h4>
     </div>
 
     <!-- Container (ROI Section) -->
-    <div id="roi" class="container-fluid bg-white">
+    <div id="roi" class="container-fluid">
         <div class="text-center">
             <br><br>
-            <span class="glyphicon glyphicon-usd"></span>
-            <span class="glyphicon glyphicon-usd"></span>
-            <span class="glyphicon glyphicon-usd"></span>
+            <span style="color:orangered" class="glyphicon glyphicon-usd drop-shadow"></span>
+            <span style="color:orangered" class="glyphicon glyphicon-usd drop-shadow"></span>
+            <span style="color:orangered" class="glyphicon glyphicon-usd drop-shadow"></span>
             
-            <div class="section-heading">RETURN ON INVESTMENT</div>
+            <div class="section-heading drop-shadow">RETURN ON INVESTMENT</div>
             
-            <h4>Choose a payment plan that works for you</h4>
-            
+            <h4 style="color:#fff; font-family:Arial Black;" class="text-center drop-shadow">Choose a payment plan that works for you</h4>
+            <br><br>
+        </div>
+    </div>
+    <div class="container-fluid bg-white">
+        <div>
             <h2>
                 <br>
-                “FEED IN TARIFF”
-                <br>
-                (RENT TO OWN)
+                FEED IN TARIFF / RENT TO OWN
+                <br><br>
             </h2>
             <h4 class="txt-justify">
                 There are basically two ways to incorporate Solar electricity into your Budget. 
@@ -336,7 +336,7 @@
                 Your night time consumption is still delivered by your local utility as battery storage is not yet cost effective for most applications.
 
                 <br><br><br>
-                <strong>SUMMARY</strong>
+                <strong style="color:orangered">SUMMARY</strong>
                 
                 <br><br>
                 Simply by using your existing budget for electricity during daytime usage, you can make (Rent to Own) payments with fixed costs (no increase) to make equity payments to own the system.
@@ -344,11 +344,14 @@
                 <br><br>
                 Your other options is to pay your ever increasing electric bill for eternity on interest only terms.
             </h4>
-
-
+        </div>
+    </div>
+    <div class="container-fluid bg-plain-blue">
+        <div>
             <h2>
-                <br><br>
+                <br>
                 DIRECT PURCHASE OF SOLAR ELECTRIC PRODUCTS
+                <br><br>
             </h2>
 
             <h4 class="txt-justify">
@@ -364,14 +367,14 @@
                 Your property is still collected to the utility service in your area. These systems generate only daylight hours. Battens will be affordable to connect with  the system in approximately 3 - 4 years.
             </h4>
 
-            <h2>
+            <h2 class="text-center">
                 <br><br>
                 Return on Investment
                 <br>
                 (Based on size of System)
             </h2>
 
-            <h4>
+            <h4 class="text-center">
                 <br>
                  One panel cost = PH ₱ 22,500.00 *Approximate cost
 
@@ -395,35 +398,34 @@
             </h4>
         </div>
     </div>
-    <div class="container-fluid text-center bg-plain">
+    <div class="container-fluid bg-white">
         <div>
             <h2>
                 Our commitment to you:
             </h2>
 
             <h4 class="txt-justify"> 
-                Our company is dedicated to your satisfaction.
-
-                <br><br>
-                Our international backgrounds in renewable energy include multiple decades of experience in many countries.
-
-                <br><br>
-                Without your complete Satisfaction, our reputation and future will not be possible.
-
-                <br><br>
-                Our commitment is to provide equitable solutions at the fairest cost possible.
+                <ul>
+                    <li>Our company is dedicated to your satisfaction.</li>
+                    <li>Our international backgrounds in renewable energy include multiple decades of experience in many countries.</li>
+                    <li>Without your complete Satisfaction, our reputation and future will not be possible.</li>
+                    <li>Our commitment is to provide equitable solutions at the fairest cost possible.</li>
+                </ul>
             </h4>
         </div>
     </div>
 
     <!-- Container (Gallery Section) -->
-    <div id="gallery" class="container-fluid text-center bg-white">
+    <div id="gallery" class="container-fluid text-center drop-shadow">
         <br><br>
-        <span class="glyphicon glyphicon-camera"></span>
+        <span style="color:orangered" class="glyphicon glyphicon-camera"></span>
+        <span style="color:orangered" class="glyphicon glyphicon-camera"></span>
+        <span style="color:orangered" class="glyphicon glyphicon-camera"></span>
         
         <div class="section-heading">GALLERY</div>
-        <br>
-        
+        <br><br><br>
+    </div>
+    <div id="gallery" class="container-fluid text-center bg-white">
         <div class="row">
             <div class="col-lg-3 col-md-4 col-xs-6 thumb">
                 <a class="thumbnail">
@@ -550,11 +552,16 @@
     </div>
 
     <!-- Container (Contact Section) -->
-    <div id="contact" class="container-fluid bg-gray-light text-center">
+    <div id="contact" class="container-fluid text-center">
         <br><br>
-        <span class="glyphicon glyphicon-phone-alt"></span>
+        <span style="color:orangered" class="glyphicon glyphicon-phone-alt drop-shadow"></span>
+        <span style="color:orangered" class="glyphicon glyphicon-phone-alt drop-shadow"></span>
+        <span style="color:orangered" class="glyphicon glyphicon-phone-alt drop-shadow"></span>
         
-        <div class="section-heading text-center">CONTACT</div>
+        <div class="section-heading text-center drop-shadow">CONTACT</div>
+        <br><br>
+    </div>
+    <div id="contact" class="container-fluid bg-white text-center">
         <br>
         <p>
             <span class="glyphicon glyphicon-map-marker"></span>
@@ -596,17 +603,15 @@
         google.maps.event.addDomListener(window, 'load', initialize);
     </script>
 
-    <footer class="container-fluid text-center">
-        <br>
-        <p id="txt-copyright">© 2016 Visayan Solar Service. All Rights Reserved.</p>
-        <a href="#home" title="To Top">
-            <span class="glyphicon glyphicon-chevron-up"></span>
-        </a>
-    </footer>
+    <div class="container-fluid text-center copyright-bar bg-footer">
+        <p id="txt-copyright">
+            © 2016 Visayan Solar Service.
+            <br>
+            All Rights Reserved.
+        </p>
+    </div>
     
     
-    
-
     <script>
         $(document).ready(function() {
             // Add smooth scrolling to all links in navbar + footer link
