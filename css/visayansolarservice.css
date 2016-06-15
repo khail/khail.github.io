@@ -24,25 +24,26 @@ body {
 }
 body { // For fullscreen bg
 	margin-top: 50px;
-	margin-bottom: 50px;
 	background: none;
 }
-footer .glyphicon {
-    font-size: 20px;
-    margin-bottom: 20px;
+h1 {
+    font-size: 32px;
+    text-transform: uppercase;
     color: orangered;
+    font-weight: 600;
+    margin-bottom: 30px;
 }
 h2 {
     font-size: 24px;
     text-transform: uppercase;
-    color: #303030;
+    color: orangered;
     font-weight: 600;
     margin-bottom: 30px;
 }
 h4 {
     font-size: 19px;
     line-height: 1.375em;
-    color: #303030;
+    color: #000;
     font-weight: 400;
     margin-bottom: 30px;
 }
@@ -50,21 +51,24 @@ hr {
     display: block;
     height: 1px;
     border: 0;
-    border-top: 1px solid #aaa;
+    border-top: 1px solid #000;
     margin: 1em 0 1em;
     padding: 0;
     width: 50%;
 }
 
 
+.bg-footer {
+    background-color: #0c3;
+}
 .bg-gray-light {
     background-color: #ddd;
 }
-.bg-grey {
-    background-color: #f6f6f6;
-}
 .bg-plain {
-    background: url("https://c1.staticflickr.com/8/7179/26926426904_fb62f9ba18_o.jpg");
+    background: url("https://c1.staticflickr.com/8/7179/26926426904_fb62f9ba18_o.jpg") center center;
+}
+.bg-plain-blue {
+    background: url("https://c7.staticflickr.com/8/7594/27647197966_364ff9c017_o.jpg") center center;
 }
 .bg-solar-full {
     background: url("https://c3.staticflickr.com/8/7118/27531047426_159ce9f8c5_o.jpg") no-repeat center center fixed; 
@@ -76,7 +80,7 @@ hr {
 .bg-white {
     background:#ffffff !important;
 }
-.bio {
+.bio-name {
     color: #000;
     font-size: 19px;
     line-height: 1.375em;
@@ -109,9 +113,14 @@ hr {
 .company-name-small {
     height: 50px;
     color: orangered;
+    font-family: Arial Black;
 }
 .container-fluid {
     padding: 60px 50px;
+}
+.drop-shadow {
+    -webkit-filter: drop-shadow(4px 4px 4px #222);
+    filter: drop-shadow(4px 4px 4   px #222);
 }
 .gal-width {
     width: 374px;
@@ -122,7 +131,7 @@ hr {
 }
 .home-contents {
     color: #fff;
-    margin-top: 280px;
+    margin-top: 390px;
     margin-bottom: 150px;
     font-family: Arial Black;
 }
@@ -274,8 +283,8 @@ hr {
     color: #fff;
 }
 .section-heading {
-    font-size: 32px;
-    color: #000;
+    font-size: 36px;
+    color: orangered;
     font-family: Arial Black;
 }
 .slideanim {
@@ -304,6 +313,12 @@ hr {
 }
 .txt-justify {
     text-align: justify;
+}
+.txt-solar {
+    color: green;
+}
+.txt-solar-light {
+    color: #0c3;
 }
 .txt-vss {
     font-size: 22px;
@@ -362,7 +377,9 @@ hr {
     margin-left: 16px;
 }
 #jumbo-company-name {
-    margin-top: -80px;
+    color: #fff;
+    font-family: Arial Black;
+    font-size: 36px;
     letter-spacing: 0px;
     -webkit-filter: drop-shadow(2px 2px 2px #222);
     filter: drop-shadow(2px 2px 2px #222);
@@ -371,14 +388,15 @@ hr {
     margin-top: -220px;
     width: 280px;
     margin-top: -20px;
-    -webkit-filter: drop-shadow(4px 4px 4px #ccc);
-    filter: drop-shadow(4px 4px 4px #fff);
+    -webkit-filter: drop-shadow(0px 0px 2px #fff);
+    filter: drop-shadow(0px 0px 2px #fff);
 }
 #logo-jsm-about {
     margin-bottom: -10px;
 }
 #logo-vss {
-    margin-top: -340px;
+    margin-top: -330px;
+    margin-bottom: 20px;
 }
 #partner {
     -webkit-filter: drop-shadow(2px 2px 2px #222);
@@ -395,8 +413,6 @@ hr {
 }
 #txt-copyright {
     color: #fff;
-    -webkit-filter: drop-shadow(2px 2px 2px #222);
-    filter: drop-shadow(2px 2px 2px #222);
 }
 #txt-menu {
     font-family: Arial Black;
@@ -404,9 +420,6 @@ hr {
 }
 #txt-partner {
     font-family: Arial Black;
-}
-#txt-solar {
-    color: springgreen;
 }
 #we-are {
     font-family: Arial Black;
