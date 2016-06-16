@@ -74,8 +74,7 @@ hr {
     background: url("https://c7.staticflickr.com/8/7594/27647197966_364ff9c017_o.jpg") center center;
 }
 .bg-solar-full {
-    background: url("https://c3.staticflickr.com/8/7118/27531047426_159ce9f8c5_o.jpg") no-repeat center center fixed; 
-    background-size: auto;
+    background: url("https://c3.staticflickr.com/8/7118/27531047426_159ce9f8c5_o.jpg") no-repeat center center fixed;
 }
 .bg-white {
     background:#ffffff !important;
