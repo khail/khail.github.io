@@ -75,10 +75,7 @@ hr {
 }
 .bg-solar-full {
     background: url("https://c3.staticflickr.com/8/7118/27531047426_159ce9f8c5_o.jpg") no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    background-size: auto;
 }
 .bg-white {
     background:#ffffff !important;
