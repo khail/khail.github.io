@@ -18,7 +18,7 @@ a:visited {
     text-decoration: none;
 }
 body {
-    font: 400 15px Arial;
+    font: 400 16px Ubuntu;
     line-height: 1.8;
     color: #818181;
 }
@@ -27,23 +27,23 @@ body { // For fullscreen bg
 	background: none;
 }
 h1 {
-    font-size: 32px;
+    font-size: 29px;
     text-transform: uppercase;
     color: orangered;
     font-weight: 600;
     margin-bottom: 30px;
 }
 h2 {
-    font-size: 24px;
+    font-size: 21px;
     text-transform: uppercase;
     color: orangered;
     font-weight: 600;
     margin-bottom: 30px;
 }
 h4 {
-    font-size: 19px;
+    font-size: 16px;
     line-height: 1.375em;
-    color: #000;
+    color: #005;
     font-weight: 400;
     margin-bottom: 30px;
 }
@@ -51,18 +51,21 @@ hr {
     display: block;
     height: 1px;
     border: 0;
-    border-top: 1px solid #000;
+    border-top: 1px solid #005;
     margin: 1em 0 1em;
     padding: 0;
     width: 50%;
 }
 
 
-.bg-footer {
-    background-color: #0c3;
+.bg-blue {
+    background-color: #003;
 }
 .bg-gray-light {
     background-color: #ddd;
+}
+.bg-orangered {
+    background-color: #ff4500;
 }
 .bg-plain {
     background: url("https://c1.staticflickr.com/8/7179/26926426904_fb62f9ba18_o.jpg") center center;
@@ -81,8 +84,8 @@ hr {
     background:#ffffff !important;
 }
 .bio-name {
-    color: #000;
-    font-size: 19px;
+    color: #005;
+    font-size: 16px;
     line-height: 1.375em;
     text-align: center;
 }
@@ -113,7 +116,8 @@ hr {
 .company-name-small {
     height: 50px;
     color: orangered;
-    font-family: Arial Black;
+    font-family: Ubuntu;
+    font-weight: 700;
 }
 .container-fluid {
     padding: 60px 50px;
@@ -126,14 +130,15 @@ hr {
     width: 374px;
 }
 .glyphicon {
-    color: #000;
+    color: orangered;
     font-size: 20px;
 }
 .home-contents {
     color: #fff;
     margin-top: 390px;
     margin-bottom: 150px;
-    font-family: Arial Black;
+    font-family: Ubuntu;
+    font-weight: 700;
 }
 .item h4 {
     font-size: 19px;
@@ -285,7 +290,8 @@ hr {
 .section-heading {
     font-size: 36px;
     color: orangered;
-    font-family: Arial Black;
+    font-family: Ubuntu;
+    font-weight: 700;
 }
 .slideanim {
     visibility: hidden;
@@ -322,7 +328,8 @@ hr {
 }
 .txt-vss {
     font-size: 22px;
-    font-family: Arial Black;
+    font-family: Ubuntu;
+    font-weight: 700;
     color: #fff;
     margin-left: 12px;
     margin-top: 4px;
@@ -367,7 +374,7 @@ hr {
 
 
 #contact {
-   color: #000;
+   color: #005;
 }
 #googleMap {
     height:400px;
@@ -378,7 +385,8 @@ hr {
 }
 #jumbo-company-name {
     color: #fff;
-    font-family: Arial Black;
+    font-family: Ubuntu;
+    font-weight: 700;
     font-size: 36px;
     letter-spacing: 0px;
     -webkit-filter: drop-shadow(2px 2px 2px #222);
@@ -402,27 +410,23 @@ hr {
     -webkit-filter: drop-shadow(2px 2px 2px #222);
     filter: drop-shadow(2px 2px 2px #222);
     margin-top: 32px;
-}
-#philo {
-    font-family: Arial Black;
-    font-size: 28px;
-    line-height: 1;
-    color: springgreen;
-    -webkit-filter: drop-shadow(2px 2px 2px #222);
-    filter: drop-shadow(2px 2px 2px #222);
+    font-size: 16px;
 }
 #txt-copyright {
     color: #fff;
 }
 #txt-menu {
-    font-family: Arial Black;
+    font-family: Ubuntu;
+    font-weight: 700;
     font-size: 14px;
 }
 #txt-partner {
-    font-family: Arial Black;
+    font-family: Ubuntu;
+    font-weight: 700;
 }
 #we-are {
-    font-family: Arial Black;
+    font-family: Ubuntu;
+    font-weight: 700;
     font-size: 26px;
     line-height: 1;
     color: #fff;
