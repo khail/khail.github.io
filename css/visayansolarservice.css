@@ -83,14 +83,10 @@ hr {
 }
 .bg-solar-full {
     background: url("https://c3.staticflickr.com/8/7118/27531047426_159ce9f8c5_o.jpg") no-repeat center center scroll; 
-    
-    height: 100%;
-    width: 100%;
-    
-    //-webkit-background-size: cover;
-    //-moz-background-size: cover;
-    //-o-background-size: cover;
-    //background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 .bg-white {
     background:#ffffff !important;
