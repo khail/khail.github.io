@@ -41,7 +41,7 @@
     </nav>
 
     <!-- Container (Home Section) -->
-    <div class="container-fluid bg-solar-full text-center">
+    <div id="background" class="container-fluid bg-solar-full text-center">
         <div class="home-contents">
             <img id="logo-vss" class="center-img" src="https://c2.staticflickr.com/8/7262/27451272012_7a5bee45b1_o.png">
             <span id="jumbo-company-name">VISAYAN<label class="txt-solar-light">SOLAR</label>SERVICE</span>
@@ -687,6 +687,12 @@
                 });
             });
         })
+    </script>
+    
+    <script>
+        $(document).scroll(function() {
+            $('#background').css('background-position', '0px ' + $(document).scrollTop() + 'px');
+        });
     </script>
 
 </body>
