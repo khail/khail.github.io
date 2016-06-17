@@ -17,6 +17,14 @@ a:visited {
     color: orangered;
     text-decoration: none;
 }
+blockquote {
+    border-left: 0;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+    
+    // background: #f9f9f9;
+    // quotes: "\201C""\201D""\2018""\2019";
+}
 body {
     font: 400 16px Ubuntu;
     line-height: 1.8;
@@ -27,21 +35,21 @@ body { // For fullscreen bg
 	background: none;
 }
 h1 {
-    font-size: 29px;
+    font-size: 31px;
     text-transform: uppercase;
     color: orangered;
-    font-weight: 600;
+    font-weight: 700;
     margin-bottom: 30px;
 }
 h2 {
-    font-size: 21px;
+    font-size: 23px;
     text-transform: uppercase;
     color: orangered;
-    font-weight: 600;
+    font-weight: 700;
     margin-bottom: 30px;
 }
 h4 {
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.375em;
     color: #005;
     font-weight: 400;
@@ -75,17 +83,21 @@ hr {
 }
 .bg-solar-full {
     background: url("https://c3.staticflickr.com/8/7118/27531047426_159ce9f8c5_o.jpg") no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    
+    height: 100%;
+    width: 100%;
+    
+    //-webkit-background-size: cover;
+    //-moz-background-size: cover;
+    //-o-background-size: cover;
+    //background-size: cover;
 }
 .bg-white {
     background:#ffffff !important;
 }
 .bio-name {
     color: #005;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.375em;
     text-align: center;
 }
@@ -131,7 +143,7 @@ hr {
 }
 .glyphicon {
     color: orangered;
-    font-size: 20px;
+    font-size: 31px;
 }
 .home-contents {
     color: #fff;
@@ -171,6 +183,9 @@ hr {
 }
 .logo-jsm-small {
     height: 72px;
+}
+.logo-partner {
+    height: 128px;
 }
 .logo-small {
     color: #f4511e;
@@ -247,8 +262,6 @@ hr {
         color: #333;
     }
 }
-
-
 .panel {
     border: 1px solid #f4511e;
     border-radius: 0 !important;
@@ -288,9 +301,14 @@ hr {
     color: #fff;
 }
 .section-heading {
-    font-size: 36px;
+    font-size: 38px;
     color: orangered;
     font-family: Ubuntu;
+    font-weight: 700;
+}
+.section-subtitle {
+    font-size: 20px;
+    color:#fff;
     font-weight: 700;
 }
 .slideanim {
@@ -302,6 +320,10 @@ hr {
     animation-duration: 1s;
     -webkit-animation-duration: 1s;
     visibility: visible;
+}
+.strong-orangered {
+    color:orangered;
+    font-weight: 700;
 }
 .thumb {
     margin-bottom: -16px;
@@ -411,7 +433,7 @@ hr {
     -webkit-filter: drop-shadow(2px 2px 2px #222);
     filter: drop-shadow(2px 2px 2px #222);
     margin-top: 32px;
-    font-size: 16px;
+    font-size: 18px;
 }
 #txt-copyright {
     color: #fff;
