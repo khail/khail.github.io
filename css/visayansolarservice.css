@@ -48,6 +48,12 @@ h2 {
     font-weight: 700;
     margin-bottom: 30px;
 }
+h3 {
+    font-size: 18px;
+    color: orangered;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
 h4 {
     font-size: 18px;
     line-height: 1.375em;
@@ -62,7 +68,7 @@ hr {
     border-top: 1px solid #005;
     margin: 1em 0 1em;
     padding: 0;
-    width: 50%;
+    width: 40%;
 }
 
 
@@ -121,6 +127,9 @@ hr {
     margin-left: auto;
     margin-right: auto;
 }
+.circle-img {
+    border-radius: 50%;
+}
 .company-name-small {
     height: 50px;
     color: orangered;
@@ -141,6 +150,9 @@ hr {
     color: orangered;
     font-size: 31px;
     margin-right: 4px;
+}
+.glyphicon-user {
+    font-size: 24px;
 }
 .home-contents {
     color: #fff;
@@ -296,6 +308,12 @@ hr {
     margin: 15px 0;
     background-color: #f4511e;
     color: #fff;
+}
+.rounded-img {
+    border-radius: 8%;
+}
+.rounded-img-4 {
+    border-radius: 4%;
 }
 .section-heading {
     font-size: 38px;
